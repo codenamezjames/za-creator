@@ -1,0 +1,32 @@
+(`
+        {
+  pizzaSizes {
+    name
+    maxToppings
+    toppings {
+      defaultSelected
+      topping {
+        name
+        price
+      }
+    }
+    basePrice
+  }
+}
+      `)
+
+
+// const mapStateToProps = (state) => {
+//   return {
+//     count: state.count
+//   };
+// };
+
+// const mapDispatchToProps = (dispatch) => {
+//   return {
+//     actions: bindActionCreators(actions, dispatch)
+//   };
+// };
+
+// export default connect(mapStateToProps, mapDispatchToProps)(App);
+
